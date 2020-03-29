@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.win2domain"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:4:5-66
+11-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:5:5-70
+12-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:6:5-79
+13-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:7:5-80
+14-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:8:5-64
+15-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:8:22-62
+16
+17    <uses-feature
+17-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:9:5-83
+18        android:name="android.hardware.Camera"
+18-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:9:19-57
+19        android:required="true" />
+19-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:9:58-81
+20
+21    <application
+21-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:11:5-27:19
+22        android:allowBackup="true"
+22-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:12:9-35
+23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+23-->[com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:14:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:15:9-54
+28        android:supportsRtl="true"
+28-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:16:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:17:9-40
+31        <activity android:name="com.win2domain.MainActivity" >
+31-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:18:9-24:20
+31-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:18:19-47
+32            <intent-filter>
+32-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:20:17-69
+33-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:22:17-77
+35-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.win2domain.SettingsActivity" >
+38-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:25:9-26:20
+38-->E:\workspace\liveshow\app\src\main\AndroidManifest.xml:25:19-51
+39        </activity>
+40    </application>
+41
+42</manifest>

@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <PreferenceCategory>
+        <EditTextPreference
+            android:key="IMSI_KEY"
+            android:summary="imsi"
+            android:title="imsi_tittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+#Sun Mar 29 22:03:27 CST 2020
+base.0=E\:\\workspace\\liveshow\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
